@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cont - Nexus Gear</title>
+<meta name="description" content="Conectează-te la contul tău Nexus Gear.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/ui/logo.png">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-wrap">
+      <img src="images/ui/logo.png" alt="Nexus Gear">
+    </a>
+    <nav class="nav">
+        <a href="index.html" class="">Acasă</a>
+        <a href="catalog.html" class="">Catalog</a>
+        <a href="despre.html" class="">Despre</a>
+        <a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="header-icons">
+      <a href="contul-meu.html" aria-label="Cont">👤</a>
+      <a href="cos.html" aria-label="Cos">🛒<span class="cart-count" style="display:none">0</span></a>
+      <button class="menu-toggle" aria-label="Meniu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <h1>Contul <span class="grad">meu</span></h1>
+  <p>Conectează-te pentru a-ți gestiona datele și comenzile</p>
+</section>
+<section>
+  <div class="form-wrap" style="max-width:480px">
+    <h2>Autentificare</h2>
+    <form class="contact-form" onsubmit="event.preventDefault();toast('Funcție demo - implementează autentificare reală')">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Parolă" required>
+      <button type="submit">Conectează-te</button>
+      <p style="text-align:center;margin-top:8px;color:var(--text-muted);font-size:14px">Nu ai cont? <a href="#" style="color:var(--magenta-glow)">Înregistrează-te</a></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/ui/logo.png" alt="Nexus Gear">
+      <p>Echipament gaming premium pentru pasionati. Calitate, performanță, stil — tot ce ai nevoie ca să joci la nivelul următor.</p>
+    </div>
+    <div>
+      <h4>Navigare</h4>
+      <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="despre.html">Despre</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Cont</h4>
+      <ul>
+        <li><a href="contul-meu.html">Contul meu</a></li>
+        <li><a href="cos.html">Coșul meu</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>📞 +373 67 365</li>
+        <li>✉ contact@nexusgear.md</li>
+        <li>📍Chișinău, Moldova</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Nexus Gear. Toate drepturile rezervate.
+  </div>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

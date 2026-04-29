@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexus Gear - Echipament gaming premium</title>
+<meta name="description" content="Magazin online de echipament gaming premium: tastaturi mecanice, mouse-uri, căști, monitoare și scaune.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/ui/logo.png">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-wrap">
+      <img src="images/ui/logo.png" alt="Nexus Gear">
+    </a>
+    <nav class="nav">
+        <a href="index.html" class="active">Acasă</a>
+        <a href="catalog.html" class="">Catalog</a>
+        <a href="despre.html" class="">Despre</a>
+        <a href="contact.html" class="">Contact</a>
+    </nav>
+    <div class="header-icons">
+      <a href="contul-meu.html" aria-label="Cont">👤</a>
+      <a href="cos.html" aria-label="Cos">🛒<span class="cart-count" style="display:none">0</span></a>
+      <button class="menu-toggle" aria-label="Meniu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <span class="hero-badge">★ Colecția 2025</span>
+      <h1>Joacă la <span class="grad">nivelul</span><br>următor</h1>
+      <p>Echipament gaming premium pentru pasionații de jocuri. Tastaturi mecanice, mouse-uri de precizie, căști imersive — toate ce ai nevoie să domini orice joc.</p>
+      <div class="hero-cta">
+        <a href="catalog.html" class="btn btn-primary">Vezi catalogul →</a>
+        <a href="despre.html" class="btn btn-outline">Despre noi</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">10K+</div>
+          <div class="stat-label">Clienți mulțumiți</div>
+        </div>
+        <div>
+          <div class="stat-num">500+</div>
+          <div class="stat-label">Produse premium</div>
+        </div>
+        <div>
+          <div class="stat-num">4.9★</div>
+          <div class="stat-label">Rating mediu</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="features-grid">
+    <div class="feature">
+      <div class="feature-ico">🚚</div>
+      <div><h4>Livrare gratuită</h4><p>Livrare gratuită pentru articole peste 300 lei.</p></div>
+    </div>
+    <div class="feature">
+      <div class="feature-ico">💰</div>
+      <div><h4>Garanție</h4><p>Garanție de returnare a banilor 100%.</p></div>
+    </div>
+    <div class="feature">
+      <div class="feature-ico">⏰</div>
+      <div><h4>Asistență 24/7</h4><p>Răspundem la orice întrebare oricând.</p></div>
+    </div>
+    <div class="feature">
+      <div class="feature-ico">🔒</div>
+      <div><h4>Plăți sigure</h4><p>Plătește convenabil și rapid, securizat.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cat-section">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Explorează gama</div>
+      <h2 class="section-title">Categorii <span class="grad">populare</span></h2>
+      <p class="section-subtitle">Alege echipamentul perfect din oricare categorie premium.</p>
+    </div>
+    <div class="cat-grid">
+      <a href="catalog.html?cat=mouse" class="cat-card"><div class="cat-ico">🖱️</div><h3>Mouse</h3></a>
+      <a href="catalog.html?cat=tastatura" class="cat-card"><div class="cat-ico">⌨️</div><h3>Tastaturi</h3></a>
+      <a href="catalog.html?cat=casti" class="cat-card"><div class="cat-ico">🎧</div><h3>Căști</h3></a>
+      <a href="catalog.html?cat=monitoare" class="cat-card"><div class="cat-ico">🖥️</div><h3>Monitoare</h3></a>
+      <a href="catalog.html?cat=scaune" class="cat-card"><div class="cat-ico">💺</div><h3>Scaune</h3></a>
+      <a href="catalog.html?cat=mese" class="cat-card"><div class="cat-ico">🪑</div><h3>Mese</h3></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="offer">
+      <div>
+        <span class="offer-eyebrow">⚡ Ofertă limitată</span>
+        <h2>Reduceri până la <span class="pct">-30%</span></h2>
+        <p>La toate tastaturile mecanice și mouse-urile gaming din colecția 2025. Profită acum, oferta este limitată în stoc!</p>
+        <a href="catalog.html" class="btn btn-primary">Profită acum</a>
+      </div>
+      <div class="offer-circle">30%</div>
+    </div>
+  </div>
+</section>
+
+<section class="products-section">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Produse populare</div>
+      <h2 class="section-title">Cele mai vândute <span class="grad">acum</span></h2>
+      <p class="section-subtitle">Selecția noastră de top, alese de comunitatea Nexus Gear.</p>
+    </div>
+    <div id="products-grid" class="products-grid"></div>
+    <div style="text-align:center;margin-top:50px">
+      <a href="catalog.html" class="btn btn-outline">Vezi toate produsele →</a>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-eyebrow">Recenzii</div>
+      <h2 class="section-title">Ce spun <span class="grad">clienții noștri</span></h2>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Tastatura este excelentă! Switch-urile mecanice sunt foarte plăcute, iar livrarea a fost rapidă. Recomand cu încredere!"</p>
+        <div class="author"><div class="avatar">A</div><div class="author-info"><strong>Andrei P.</strong><span>Cumpărător verificat</span></div></div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Mouse-ul Pulsar TenZ Signature este incredibil de precis. Am observat o îmbunătățire imediată în jocurile FPS."</p>
+        <div class="author"><div class="avatar">M</div><div class="author-info"><strong>Maria D.</strong><span>Cumpărător verificat</span></div></div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Asistența tehnică a fost foarte amabilă și mi-au răspuns rapid. Echipamentul este de calitate premium."</p>
+        <div class="author"><div class="avatar">V</div><div class="author-info"><strong>Vlad R.</strong><span>Cumpărător verificat</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="newsletter">
+      <div>
+        <h2>Abonează-te la <span class="grad" style="background:linear-gradient(135deg,#fff,#fce7f3);-webkit-background-clip:text;background-clip:text;color:transparent">noutăți</span></h2>
+        <p>Primește primul ofertele exclusive și produsele noi direct pe email.</p>
+      </div>
+      <form id="newsletter-form" class="newsletter-form">
+        <input type="email" placeholder="adresa@email.com" required>
+        <button type="submit">Abonează-mă</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => renderProducts('products-grid', null, 4));
+</script>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/ui/logo.png" alt="Nexus Gear">
+      <p>Echipament gaming premium pentru pasionati. Calitate, performanță, stil — tot ce ai nevoie ca să joci la nivelul următor.</p>
+    </div>
+    <div>
+      <h4>Navigare</h4>
+      <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="despre.html">Despre</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Cont</h4>
+      <ul>
+        <li><a href="contul-meu.html">Contul meu</a></li>
+        <li><a href="cos.html">Coșul meu</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>📞 +373 67 365</li>
+        <li>✉ contact@nexusgear.md</li>
+        <li>📍 Chișinău, Moldova</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Nexus Gear. Toate drepturile rezervate.
+  </div>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
